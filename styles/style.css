@@ -125,3 +125,33 @@ color: #757575;
     font-size: 24px; */
     color: #676565; 
 }
+
+/* resume contant */
+.resume-content{
+    display: flex;
+    gap: 28px;
+}
+.resume .title{
+    color: rgb(208, 127, 255);
+    font-weight: 700;
+    font-size: 24px;  
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: aquamarine;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #676565;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 60px;
+    text-align: center;
+    background-image: url('../images/');
+}
