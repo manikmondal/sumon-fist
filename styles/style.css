@@ -63,6 +63,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.section{
+    margin-top: 130px;
+}
 /* about */
 .about{
     text-align: center;
@@ -73,10 +76,12 @@ main{
 
 }
 .section-titel{
-    
+
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 .section-description{
     color: aqua;
@@ -95,4 +100,28 @@ color: #757575;
     font-weight: 700;
     font-size: 28px;
     color: #474747;
+}
+/* what i do stails */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #fff8f3;
+    box-shadow: opx 6px 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.skll-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fd1111;  
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    /* font-weight: 700;
+    font-size: 24px; */
+    color: #676565; 
 }
